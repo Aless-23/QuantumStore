@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QuantumStore</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="nav container">
+        <a href="#" class="logo">QuantumStore</a>
+        <i class="bx bx-shopping-bag" id="cart-icon" data-quantitiy="0"></i>
+
+        <div class="cart">
+          <h2 class="cart-title">Tu carrito</h2>
+          <!--contenido-->
+          <div class="cart-content"></div>
+          <!--Total-->
+          <div class="total">
+            <div class="total-title">Total:</div>
+            <div class="total-price">$0</div>
+          </div>
+
+          <button type="button" class="btn-buy">Pagar</button>
+          <i class="bx bx-x" id="close-cart"></i>
+        </div>
+      </div>
+    </header>
+    <!--Productos-->
+    <section class="shop container">
+      <h2 class="section-title">Productos</h2>
+      <!--shop content-->
+      <div class="shop-content">
+        <!--box 1-->
+        <div class="product-box">
+          <img
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgaKfJTm1Nbj9vwCqpElAMkiVuxwoWwcBQNo9MICvdkGwfoevRZGFY-y7rU1H9K-IdgUEKNfmfoUDS259Q69Z7XYZ4lVhFpD1k3x3ioiH4MoVbBA9GWEIOtn5d7fSZ6G18z8py2ISa7ZjKRi33obW4rM7LQVeQl2vt-V9uibNZnSQoY8UAf4s82ZbHt9YgY/s320/mouse.jpeg"
+            alt=""
+            class="product-img"
+          />
+          <h2 class="product-title">Mouse Gaming</h2>
+          <span class="price">$49</span>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+        <!--box 2-->
+        <div class="product-box">
+          <img
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhybgZ-tVu9Agg3HVzMH_v5BTssTqdPMGL2mKM-7IMy2Tfif7p6101-OwHdI9IJCIIFfS0MT5HD2x5uTDZXY1sJS5KYChk5h3RVYPZv7w4l5l7SaCerwcuYFEEpPM4gaC8UZE_BENgm1DLsTdCQFIyYIZzXFNVXnpmzEvfQ28ilrnujHghREO0Hg8rYkeF2/s320/cargador.jpeg"
+            alt=""
+            class="product-img"
+          />
+          <h2 class="product-title">Cargador Inalambrico</h2>
+          <span class="price">$29</span>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+        <!--box 3-->
+        <div class="product-box">
+          <img
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHqTsp6qOMrbPDV-Lc9HP74_6-7CR3tx6ilKc8IWnQzVDLhxCZbGTLy9W6zweRXDhNUGCiA3qiJSL6vag2_1r9UySl_NywN2DIQPlh1qi_ljNZlIKoLZhoGJgRziysn2mFF3du-8woyr7jhMQD5hv032ORrQKAEgOlqs_ir4E6BhYmEz3uX3M0lO-tZ3nV/s320/cerradura.jpeg"
+            alt=""
+            class="product-img"
+          />
+          <h2 class="product-title">Cerradura Digital</h2>
+          <span class="price">$179</span>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+        <!--box 4-->
+        <div class="product-box">
+          <img
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEivsrLXqQ-XhVPPJVy0qTZjor_khwaZKbEPUWt7-h2jbk1TaFF3ZIzkHbF3acjzXdfoFYvktkikSFZfbrKirUdLZ0mLvOdDB-kxz0kn0mS04QzSCYg1RfhiT-hpAvDEEJq8xmAZEMhZ21Reu2TjnaDDTjbova7QFt-lr8sPzHy5TEwaf3C0AtXQ6Z4hM6n2/s320/lampara.jpeg"
+            alt=""
+            class="product-img"
+          />
+          <h2 class="product-title">Lampara Led Inteligente</h2>
+          <span class="price">$39</span>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+        <!--box 5-->
+        <div class="product-box">
+          <img
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAbtGp-KyFHwn7o3i13RfDjqB-6nPbVwzUchAR-MGppIatX4W9ELl6ULwPdXvncgm6EZrmZDMPPeTQR2APbM_N3MWdGzj1eS9MqlHvaui_YbQyCnWf5OM23FXIz6Ve_kG79nREE5gqpRgQQkXko12HNy9DNHZ3FOj7gu45SWEwF3-neQM9ujekl286jbHg/s320/lentes.jpeg"
+            alt=""
+            class="product-img"
+          />
+          <h2 class="product-title">Lentes Inteligentes</h2>
+          <span class="price">$249</span>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+        <!--box 6-->
+        <div class="product-box">
+          <img
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhNgKEN8wka3ZxFSW17GlCY6lAIt0w368tba9Hyba-zHrRV-u8M5mntxWocD5KJkPOB904N7tYPVC3bJTSw_KVtq5BkZ2LH-OOCc6oYaJlF6dKXPfYqFfuHJzmBE4R1ZCrBebdPDbKWuXYlWEIWOxYzJpA-KsPVwzkcK19p1Mdguwo3M7Wz5N_GOWFydlh4/s320/monitor.jpeg"
+            alt=""
+            class="product-img"
+          />
+          <h2 class="product-title">Monitor Ultrawide</h2>
+          <span class="price">$399</span>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+        <!--box 7-->
+        <div class="product-box">
+          <img
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgE4bEoOlKk5qKnpBYAg3hknL17G2YKeogveRPuK0IIacQHy509W9oyCc8qco5M5riKCoHLDx_OdnNlHO_UueDiY2yIAV2wnmyPOEIAAXGvb14m_UkjAbBjxo-3-h1wAq63nhqJ1pe5l7y8rxeqhqB_cp5LX2HW20e9ZsKwWdzzaAWzG8cYv6EJOnePFhiy/s320/product6.jpeg"
+            alt=""
+            class="product-img"
+          />
+          <h2 class="product-title">Audifonos Inalambricos</h2>
+          <span class="price">$39</span>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+        <!--box 8-->
+        <div class="product-box">
+          <img
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhWRMZJsuXzGKt6o4wQTwT-jh1T863w_zSTSB7dPe9tvHAK5c6URSQQpcGiqZw_2fivok7oaFIQWOSNdm4YTxCM1WOapklnMUblwiC00etdV26SJwLusOgDz9ECgAePHuhRWg9vEcCpI-8PeIcb9ImK0RWk9nrTTu6p82gQhpxgTQfbkCBkOpJ5BR9XOoIG/s320/teclado.jpeg"
+            alt=""
+            class="product-img"
+          />
+          <h2 class="product-title">Teclado Mecanico</h2>
+          <span class="price">$99</span>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+        <!--box 9-->
+        <div class="product-box">
+          <img
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhCUpNUvPeRDTPMr2omLcuwyczsuR9zmZsmaeJmGwx3QqeRlN7B3x084ZgAPWYe0SIolL_sdDz-iEHYxSNJTevujAgAfCVY07X7g32ZB_NgRW99r3HBr20QllPlC-1eb2S5MJyYAyNE6ZNcf0m9grCOcG_1b7cpPof5r52Hj7O4yFwfi2urNdTQf2uFIOq/s320/watch.jpeg"
+            alt=""
+            class="product-img"
+          />
+          <h2 class="product-title">Smartwatch</h2>
+          <span class="price">$149</span>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+        <div class="product-box">
+          <img
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1Erljm-e6EGQTsngRo2_jtRkqiMbgAGSjHsOwzT0yQ7mmSBgZ6pV3C4kEdb1mVTc1SZuFRKuKA5tskxTuZplaSXE4Hsb0tnB4J-dkJf-iWql7QCqgftPDGnNPfkxs71svbUaoECItNadpXQotJ1bfE_0Fk6-qpri0rjwX4DZb0kCQMBZJZ1f3mUZ-B1Sn/s320/iphone.jpeg"
+            alt=""
+            class="product-img"
+          />
+          <h2 class="product-title">iPhone 15 Pro (128GB)</h2>
+          <span class="price">$999</span>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+        <!--box 8-->
+        <div class="product-box">
+          <img
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpSgfwF-Q9np1WJwv-s0F3sJYlxA5AQ2arS2Qd6DRin7LR39WrGxymVf7Ot8UEudoQ2cwnV-KHqFZADrzcBUi4MfRGV4T_9CgaT8AUtS4H4eIbh9MQs9yYYWtA7Y0HpiSYGYvnSMV_RF0DUrtWDSnII2_mcg5LnEan0J_lf-NUXuYG-0qRXnmY9eIx_4Xl/s320/samsung.jpeg" 
+            alt=""
+            class="product-img"
+          />
+          <h2 class="product-title">Samsung Galaxy S24 Ultra (256GB)</h2>
+          <span class="price">$1199</span>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+        <!--box 8-->
+        <div class="product-box">
+          <img
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhMl3rlrN5BzRQ6tk2ypgB3b3POgmyL3c_k6eSK0G0owImNSOgjBaezNcFwUHiaD1Z9GnkYLwCsJxqgnoFPYMLWZ0zwRvAya5pSwgH2OnBSkASF5NKt36grnI_gMJV5sjfMfKz1TS0egms_9P7ckT7WVmaRcotricdrJdlz2YesuNTs3YH1jkhY6vVdRbE6/s320/xbox.jpeg" 
+            alt=""
+            class="product-img"
+          />
+          <h2 class="product-title">Xbox Series X</h2>
+          <span class="price">$499</span>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+        <!--box 8-->
+        <div class="product-box">
+          <img
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwDUfOeisD-Onq1nj5q3tYefSs0XfzVNSRUxhdjoMnJZLOF9X-y7n5A6efCWPq5_62UwPlM-OcmYtrXqTzkkCh4rqeWHOUkQhW_ypwebhodMQTT-uzY4eBmU6qARlEl5uag7yl-vs5RSTSpi7v4fH7r79GXveA17hYu1J00p9vjnGzZH3WZ8c4TYxlV6Gx/s320/switch.jpeg" 
+            alt=""
+            class="product-img"
+          />
+          <h2 class="product-title">Nintendo Switch OLED</h2>
+          <span class="price">$349</span>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+        <!--box 8-->
+        <div class="product-box">
+          <img
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiS5tJE8491ASzkaUc8MBGdQk6sx5IZDhum6AZ6N0boEW-jn1Me6F9Tlu6QfDfH1-iwi96k_7OHfJjNwYxRkPXTPbaUs1OTyV8MZxVyapZlbPuuWuuawwF7cJVbZlNBaIQtaOJcIt7OXdxJlmDeuS4ALF_gCPszpT9k5BLehHdIO-OWEbIv8WuXjjavbyL3/s1600/sony.jpeg" 
+            alt=""
+            class="product-img"
+          />
+          <h2 class="product-title">Sony WH-1000XM5</h2>
+          <span class="price">$398</span>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+        <!--box 8-->
+        <div class="product-box">
+          <img
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjD9uVVqrzxKDyevDaKbk9vOyd7wDG09CDyOHXwgdAS-RvC0T54JGM_dqDSDf5YH87ajK_ToOCyIPLxIzt7QKradL0SaLw6WJyK_HX2-AhzwqKTmkbQxp9YU6xnqOF-UE_Ch5IDbsa-e3H6YEroAOxPeYz8eVsuHoKRpGKsqoX0Hvr5degor7HDzQSQFXyR/s320/ipad.jpeg" 
+            alt=""
+            class="product-img"
+          />
+          <h2 class="product-title">Tablet iPad 10ª Gen (64GB Wi-Fi)</h2>
+          <span class="price">$449</span>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+        <!--box 8-->
+        <div class="product-box">
+          <img
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgvoRG9IX8x6dKcRmslNI1CaVJf4Kz38vhyPVJX7UT8y8jYKog_jKXTxgAWJTb6HAiHoYCgRL1Dn18rYy_iqnb5mfcZoFG0hBcf1rmC6auRCaPW97ZuWu3VzCU5JKKL0jYOw4GP2yvm3WRZwpFErb9HuN4iotJynCqjatVhKZTlQDj7XuOr4MsDhCBPLPAt/s320/ps5.jpeg" 
+            alt=""
+            class="product-img"
+          />
+          <h2 class="product-title">PlayStation 5</h2>
+          <span class="price">$499</span>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+      </div>
+    </section>
+    <!--link js-->
+    <script src="js/main.js"></script>
+    <script src="js/cart.js"></script>
+  </body>
+</html>
